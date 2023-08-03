@@ -1,6 +1,6 @@
 # สร้างฟังก์ชันแบบไม่มี Return
 def hello(name):
-    print("Hello %s" % name)
+    print(f"Hello {name}")
 
 
 # การเรียกใช้งานฟังก์ชัน
@@ -9,8 +9,7 @@ hello("Samit Koyom")
 
 # สร้างฟังก์ชันแบบมี Return Value
 def area(width, height):
-    total = width * height
-    return total
+    return width * height
 
 
 # เรียกใช้งานฟังก์ชัน
@@ -20,9 +19,9 @@ print()
 
 # ฟังก์ชันแบบมีการกำหนดค่าเริ่มต้นไว้
 def show_info(name="", salary=0.00, lang="not define"):
-    print("Name: %s" % name)
-    print("Salary: %s" % salary)
-    print("Language: %s" % lang)
+    print(f"Name: {name}")
+    print(f"Salary: {salary}")
+    print(f"Language: {lang}")
 
 
 show_info()
